@@ -1,0 +1,19 @@
+$mainColor:#f00;
+$subColor:#00f;
+header{
+    .center{
+        justify-content: space-between;
+        nav{
+            display:flex;
+            gap:0 30rem;
+        }
+    }
+}
+.loading{
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}

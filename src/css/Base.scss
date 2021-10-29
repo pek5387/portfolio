@@ -1,0 +1,90 @@
+/* base */
+html{
+  font-size:6.25%;
+}
+body {
+  font-size:16rem;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', 'Open Sans', sans-serif;
+}
+
+a {
+text-decoration: none;
+display: inline-block;
+color: inherit;
+}
+
+label{
+cursor: pointer;
+}
+
+ul, li, dl, dt, dd {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+i {
+font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+padding: 0;
+}
+
+header, footer{
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  &>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.center {
+width: 100%;
+max-width: 1300rem;
+display: flex;
+}
+
+.ab {
+position: absolute;
+}
+
+.rel{
+  position: relative;
+}
+
+.text_right {
+text-align: right;
+}
+
+.text_center {
+text-align: center;
+}
+
+.text_left {
+text-align: left;
+}
+
+.column {
+flex-direction: column;
+}
+
+.table {
+display: table;
+}
+
+.cell {
+display: table-cell;
+}
+
+.row {
+display: table-row;
+}
